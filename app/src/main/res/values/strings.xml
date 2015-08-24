@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Selfie Charades</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="sign_up_button_label">Sign Up</string>
+    <string name="signup_error_title">Error!</string>
+    <string name="login_error_message">Please make sure you enter a username and password!</string>
+    <string name="signup_error_message">Please make sure you enter a username, password, and email address!</string>
+    <string name="login_error_title">Error!</string>
+    <string name="login_button_label">Login</string>
+    <string name="sign_up_text">Sign Up!</string>
+    <string name="title_activity_sign_up">Sign Up</string>
+    <string name="logout_label">Logout</string>
+    <string name="username_hint">Username</string>
+    <string name="password_hint">Password</string>
+    <string name="email_hint">Email</string>
+    <string name="message_hint">Enter Message</string>
+    <string name="title_activity_pick_afriend">PickAFriendActivity</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_pick_movie">PickMovieActivity</string>
+    <string name="title_activity_delete_camera">DeleteCameraActivity</string>
+    <string name="title_activity_show_picture">ShowPictureActivity</string>
+    <string name="title_activity_game_play">GamePlayActivity</string>
+    <string name="title_activity_album_storage_dir_factory">AlbumStorageDirFactory</string>
+    <string name="album_name">Selfie Charades</string>
+    <string name="title_activity_acting_turn">ActingTurnActivity</string>
+    <string name="title_activity_temp">TempActivity</string>
+    <string name="title_activity_guessing_turn">GuessingTurnActivity</string>
+    <string name="title_activity_new_turn">NewTurnActivity</string>
+</resources>

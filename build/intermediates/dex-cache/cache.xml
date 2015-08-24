@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Projects\Selfie-Charades\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.2.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="73753982da6bde518f3a4c6b372749981d14d1a0">
+        <dex dex="C:\Projects\Selfie-Charades\app\build\intermediates\pre-dexed\debug\classes-40ea44e85375ae8225109919e056515990c003b0.jar" />
+    </item>
+    <item
+        jar="C:\Projects\Selfie-Charades\app\libs\Parse-1.9.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="5811138d4e6cb9d45030e133ef1a61b935154c3a">
+        <dex dex="C:\Projects\Selfie-Charades\app\build\intermediates\pre-dexed\debug\Parse-1.9.0-4f2196a1d26c862366a756000122cd4973871c5d.jar" />
+    </item>
+    <item
+        jar="C:\Projects\Selfie-Charades\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="1ee588ff2c4daf7b97c1cbf922a6c7f027285c2f">
+        <dex dex="C:\Projects\Selfie-Charades\app\build\intermediates\pre-dexed\debug\classes-bf14f5315aadd7871356e87add9880e88c28b4a0.jar" />
+    </item>
+    <item
+        jar="C:\Projects\Selfie-Charades\app\build\intermediates\exploded-aar\com.facebook.android\facebook-android-sdk\3.20.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="66236ebe4d86dafbfc30b4fd7e5917ba2a645b35">
+        <dex dex="C:\Projects\Selfie-Charades\app\build\intermediates\pre-dexed\debug\classes-27601f05b863f75727f8b0fff65d168e65a6f501.jar" />
+    </item>
+    <item
+        jar="C:\Users\Aniket\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\22.2.0\support-annotations-22.2.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="66b42a1f3eb7676070b7ef7f14b603483aecbee1">
+        <dex dex="C:\Projects\Selfie-Charades\app\build\intermediates\pre-dexed\debug\support-annotations-22.2.0-6e16cdb5016515629a13b1511ab2797c356c1895.jar" />
+    </item>
+    <item
+        jar="C:\Users\Aniket\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-android\1.1.3\e61e3dfc57eaa5c97f9e7061db5608fc7d02d39e\bolts-android-1.1.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="e61e3dfc57eaa5c97f9e7061db5608fc7d02d39e">
+        <dex dex="C:\Projects\Selfie-Charades\app\build\intermediates\pre-dexed\debug\bolts-android-1.1.3-f9cd1f138f1d9b8c150919e32f149c806ca5c20d.jar" />
+    </item>
+    <item
+        jar="C:\Projects\Selfie-Charades\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\libs\internal_impl-22.2.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="57f2ab85c164ff1676ec64dee787981c046fab79">
+        <dex dex="C:\Projects\Selfie-Charades\app\build\intermediates\pre-dexed\debug\internal_impl-22.2.0-0d57eba80a03880f929c1131b8623cb498ebaac8.jar" />
+    </item>
+
+</items>

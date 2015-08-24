@@ -1,0 +1,96 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ScrollView01"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:fillViewport="true"
+
+    android:scrollbars="none"
+    android:background="#ff75fffa">
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusableInTouchMode="true"
+    tools:context=".MainActivity"
+    android:id="@+id/layout">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:id="@+id/tvWelcome"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="54dp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="New Game"
+        android:id="@+id/btnNewGame"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:layout_below="@+id/tvWelcome"
+        android:layout_margin="10dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Logout"
+        android:id="@+id/btnLogout"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_margin="5dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Your Turn"
+        android:id="@+id/yourTurnHeader"
+        android:layout_below="@+id/btnNewGame"
+        android:gravity="center_horizontal"
+        android:layout_margin="20dp" />
+
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+
+        android:id="@+id/test_cont_yourTurnList"
+        android:layout_below="@+id/yourTurnHeader"
+        android:layout_alignEnd="@+id/btnLogout"
+        android:layout_margin="10dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Their Turn"
+        android:id="@+id/theirTurnHeader"
+        android:layout_below="@+id/test_cont_yourTurnList"
+        android:layout_alignParentStart="false"
+        android:gravity="center_horizontal"
+        android:layout_margin="20dp" />
+
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+
+        android:id="@+id/test_cont_theirTurnList"
+        android:layout_below="@+id/theirTurnHeader"
+        android:layout_alignParentStart="true"
+        android:layout_margin="10dp"/>
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/refreshButton"
+        android:layout_alignTop="@+id/btnLogout"
+        android:layout_alignParentStart="true"
+        android:layout_margin="5dp"
+        android:src="@android:drawable/ic_menu_rotate" />
+
+</RelativeLayout>
+
+    </ScrollView><!-- From: file:/C:/Projects/Selfie-Charades/app/src/main/res/layout/activity_main.xml -->

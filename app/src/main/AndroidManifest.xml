@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.jenil.parsedemo" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <uses-feature android:name="android.hardware.camera" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <android:uses-permission
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        android:maxSdkVersion="18" />
+    <android:uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <android:uses-permission
+        android:name="android.permission.READ_EXTERNAL_STORAGE"
+        android:maxSdkVersion="18" />
+
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+
+    <!--
+  IMPORTANT: Change "com.parse.tutorials.pushnotifications.permission.C2D_MESSAGE" in the lines below
+  to match your app's package name + ".permission.C2D_MESSAGE".
+    -->
+    <permission
+        android:name="com.example.jenil.parsedemo.permission.C2D_MESSAGE"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="com.example.jenil.parsedemo.permission.C2D_MESSAGE" />
+
+    <application
+        android:name=".ParseDemoApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/push"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".SplashScreenActivity"
+            android:screenOrientation="portrait"
+            android:noHistory="true"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name=".MainActivity" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".LoginActivity"
+            android:screenOrientation="portrait"
+            android:label="@string/title_activity_login" >
+        </activity>
+        <activity
+            android:name=".SignUpActivity"
+            android:screenOrientation="portrait"
+            android:label="@string/title_activity_sign_up" >
+        </activity>
+        <activity
+            android:name=".PickAFriendActivity"
+            android:screenOrientation="portrait"
+            android:label="@string/title_activity_pick_afriend"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.jenil.parsedemo.MainActivity" />
+        </activity>
+        <activity
+            android:name=".PickMovieActivity"
+            android:screenOrientation="portrait"
+            android:label="@string/title_activity_pick_movie"
+            android:parentActivityName=".PickAFriendActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.jenil.parsedemo.PickAFriendActivity" />
+        </activity>
+        <activity
+            android:name=".DeleteCameraActivity"
+            android:screenOrientation="portrait"
+            android:label="@string/title_activity_delete_camera"
+            android:parentActivityName=".PickMovieActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.jenil.parsedemo.PickMovieActivity" />
+        </activity>
+        <activity
+            android:name=".ShowPictureActivity"
+            android:label="@string/title_activity_show_picture"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.jenil.parsedemo.MainActivity" />
+        </activity>
+        <activity
+            android:name=".GamePlayActivity"
+            android:label="@string/title_activity_game_play"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".PickMovieActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.jenil.parsedemo.PickMovieActivity" />
+        </activity>
+        <activity
+            android:name=".GameShowActivity"
+            android:label="GameShowActivity"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".ActingTurnActivity"
+            android:label="@string/title_activity_acting_turn"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".PickMovieActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.jenil.parsedemo.PickMovieActivity" />
+        </activity>
+        <activity
+            android:name=".TempActivity"
+            android:label="@string/title_activity_temp"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".ActingTurnActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.jenil.parsedemo.ActingTurnActivity" />
+        </activity>
+        <activity
+            android:name=".GuessingTurnActivity"
+            android:label="@string/title_activity_guessing_turn"
+            android:screenOrientation="portrait"
+            android:noHistory="true"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.jenil.parsedemo.MainActivity" />
+        </activity>
+
+        <service android:name="com.parse.PushService" />
+
+        <receiver android:name="com.parse.ParseBroadcastReceiver" >
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="android.intent.action.USER_PRESENT" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.parse.GcmBroadcastReceiver"
+            android:permission="com.google.android.c2dm.permission.SEND" >
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+                <action android:name="com.google.android.c2dm.intent.REGISTRATION" />
+
+<!--                   IMPORTANT: Change "com.parse.tutorials.pushnotifications" to match your app's package name. -->
+                <category android:name="com.example.jenil.parsedemo" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.parse.ParsePushBroadcastReceiver"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="com.parse.push.intent.RECEIVE" />
+                <action android:name="com.parse.push.intent.DELETE" />
+                <action android:name="com.parse.push.intent.OPEN" />
+            </intent-filter>
+        </receiver>
+
+        <!-- replace @drawable/push_icon with your push icon identifier -->
+        <meta-data
+            android:name="com.parse.push.notification_icon"
+            android:resource="@drawable/push" />
+
+        <activity
+            android:name=".NewTurnActivity"
+            android:label="@string/title_activity_new_turn"
+            android:parentActivityName=".GuessingTurnActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.jenil.parsedemo.GuessingTurnActivity" />
+        </activity>
+    </application>
+
+</manifest>
