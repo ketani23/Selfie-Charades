@@ -57,4 +57,4 @@
         android:layout_marginTop="69dp"
         android:text="@string/sign_up_text" />
 
-</RelativeLayout><!-- From: file:/C:/Projects/Selfie-Charades/app/src/main/res/layout/activity_login.xml -->
+</RelativeLayout><!-- From: file:/C:/Projects/Selfie-Charades/branches/aws-integration/Selfie-Charades/app/src/main/res/layout/activity_login.xml -->

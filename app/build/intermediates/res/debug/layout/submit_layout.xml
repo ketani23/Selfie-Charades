@@ -9,4 +9,4 @@
         android:id="@+id/submitButton"
         android:layout_centerVertical="true"
         android:layout_centerHorizontal="true" />
-</RelativeLayout><!-- From: file:/C:/Projects/Selfie-Charades/app/src/main/res/layout/submit_layout.xml -->
+</RelativeLayout><!-- From: file:/C:/Projects/Selfie-Charades/branches/aws-integration/Selfie-Charades/app/src/main/res/layout/submit_layout.xml -->
