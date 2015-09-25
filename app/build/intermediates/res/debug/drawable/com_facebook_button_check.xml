@@ -18,4 +18,4 @@
   <item android:state_checked="true" android:drawable="@drawable/com_facebook_button_check_on" />
   <item android:drawable="@drawable/com_facebook_button_check_off" />
 </selector>
-<!-- From: file:/Users/karthiks/Code/android-sdk/facebook/res/drawable/com_facebook_button_check.xml --><!-- From: file:/C:/Projects/Selfie-Charades/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/3.20.0/res/drawable/com_facebook_button_check.xml -->
+<!-- From: file:/Users/karthiks/Code/android-sdk/facebook/res/drawable/com_facebook_button_check.xml --><!-- From: file:/C:/Projects/Selfie-Charades/branches/aws-integration/Selfie-Charades/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/3.20.0/res/drawable/com_facebook_button_check.xml -->

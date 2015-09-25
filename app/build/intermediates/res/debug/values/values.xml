@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- From: file:/C:/Projects/Selfie-Charades/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/values/values.xml -->
+    <!-- From: file:/C:/Projects/Selfie-Charades/branches/aws-integration/Selfie-Charades/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/values/values.xml -->
     <eat-comment/>
     <attr format="reference" name="drawerArrowStyle"/>
     <attr format="dimension" name="height"/>
@@ -31,7 +31,7 @@
     <color name="bright_foreground_material_light">@android:color/black</color>
     <color name="button_material_dark">#ff5a595b</color>
     <color name="button_material_light">#ffd6d7d7</color>
-    <!-- From: file:/C:/Projects/Selfie-Charades/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/3.20.0/res/values/values.xml -->
+    <!-- From: file:/C:/Projects/Selfie-Charades/branches/aws-integration/Selfie-Charades/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/3.20.0/res/values/values.xml -->
     <eat-comment/>
     <color name="com_facebook_blue">#3B5998</color>
     <color name="com_facebook_likeboxcountview_border_color">#6a7180</color>
@@ -44,7 +44,7 @@
     <color name="com_facebook_usersettingsfragment_connected_shadow_color">#000000</color>
     <color name="com_facebook_usersettingsfragment_connected_text_color">#FFFFFF</color>
     <color name="com_facebook_usersettingsfragment_not_connected_text_color">#A6AED7</color>
-    <!-- From: file:/C:/Projects/Selfie-Charades/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/values/values.xml -->
+    <!-- From: file:/C:/Projects/Selfie-Charades/branches/aws-integration/Selfie-Charades/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/values/values.xml -->
     <eat-comment/>
     <color name="dim_foreground_disabled_material_dark">#80bebebe</color>
     <color name="dim_foreground_disabled_material_light">#80323232</color>
@@ -170,11 +170,11 @@
     <dimen name="abc_text_size_subtitle_material_toolbar">16dp</dimen>
     <dimen name="abc_text_size_title_material">20sp</dimen>
     <dimen name="abc_text_size_title_material_toolbar">20dp</dimen>
-    <!-- From: file:/C:/Projects/Selfie-Charades/app/src/main/res/values/dimens.xml -->
+    <!-- From: file:/C:/Projects/Selfie-Charades/branches/aws-integration/Selfie-Charades/app/src/main/res/values/dimens.xml -->
     <eat-comment/>
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
-    <!-- From: file:/C:/Projects/Selfie-Charades/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/3.20.0/res/values/values.xml -->
+    <!-- From: file:/C:/Projects/Selfie-Charades/branches/aws-integration/Selfie-Charades/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/3.20.0/res/values/values.xml -->
     <eat-comment/>
     <dimen name="com_facebook_likeboxcountview_border_radius">3dp</dimen>
     <dimen name="com_facebook_likeboxcountview_border_width">1dp</dimen>
@@ -204,7 +204,7 @@
     <dimen name="com_facebook_tooltip_horizontal_padding">10dp</dimen>
     <dimen name="com_facebook_usersettingsfragment_profile_picture_height">64dp</dimen>
     <dimen name="com_facebook_usersettingsfragment_profile_picture_width">64dp</dimen>
-    <!-- From: file:/C:/Projects/Selfie-Charades/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/values/values.xml -->
+    <!-- From: file:/C:/Projects/Selfie-Charades/branches/aws-integration/Selfie-Charades/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/values/values.xml -->
     <eat-comment/>
     <item name="dialog_fixed_height_major" type="dimen">80%</item>
     <item name="dialog_fixed_height_minor" type="dimen">100%</item>
@@ -215,10 +215,10 @@
     <dimen name="notification_large_icon_height">64dp</dimen>
     <dimen name="notification_large_icon_width">64dp</dimen>
     <dimen name="notification_subtext_size">12dp</dimen>
-    <!-- From: file:/C:/Projects/Selfie-Charades/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/3.20.0/res/values/values.xml -->
+    <!-- From: file:/C:/Projects/Selfie-Charades/branches/aws-integration/Selfie-Charades/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/3.20.0/res/values/values.xml -->
     <eat-comment/>
     <drawable name="com_facebook_picker_default_separator_color">#33464c59</drawable>
-    <!-- From: file:/C:/Projects/Selfie-Charades/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/values/values.xml -->
+    <!-- From: file:/C:/Projects/Selfie-Charades/branches/aws-integration/Selfie-Charades/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/values/values.xml -->
     <eat-comment/>
     <drawable name="notification_template_icon_bg">#3333B5E5</drawable>
     <item name="action_bar_activity_content" type="id"/>
@@ -252,12 +252,12 @@
     <string name="abc_shareactionprovider_share_with">Share with</string>
     <string name="abc_shareactionprovider_share_with_application">Share with %s</string>
     <string name="abc_toolbar_collapse_description">Collapse</string>
-    <!-- From: file:/C:/Projects/Selfie-Charades/app/src/main/res/values/strings.xml -->
+    <!-- From: file:/C:/Projects/Selfie-Charades/branches/aws-integration/Selfie-Charades/app/src/main/res/values/strings.xml -->
     <eat-comment/>
     <string name="action_settings">Settings</string>
     <string name="album_name">Selfie Charades</string>
     <string name="app_name">Selfie Charades</string>
-    <!-- From: file:/C:/Projects/Selfie-Charades/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/3.20.0/res/values/values.xml -->
+    <!-- From: file:/C:/Projects/Selfie-Charades/branches/aws-integration/Selfie-Charades/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/3.20.0/res/values/values.xml -->
     <eat-comment/>
     <string name="com_facebook_choose_friends">Choose Friends</string>
     <string name="com_facebook_dialogloginactivity_ok_button">OK</string>
@@ -288,7 +288,7 @@
     <string name="com_facebook_usersettingsfragment_log_in_button">Log in…</string>
     <string name="com_facebook_usersettingsfragment_logged_in">Logged in</string>
     <string name="com_facebook_usersettingsfragment_not_logged_in">Not logged in</string>
-    <!-- From: file:/C:/Projects/Selfie-Charades/app/src/main/res/values/strings.xml -->
+    <!-- From: file:/C:/Projects/Selfie-Charades/branches/aws-integration/Selfie-Charades/app/src/main/res/values/strings.xml -->
     <eat-comment/>
     <string name="email_hint">Email</string>
     <string name="hello_world">Hello world!</string>
@@ -302,10 +302,10 @@
     <string name="sign_up_text">Sign Up!</string>
     <string name="signup_error_message">Please make sure you enter a username, password, and email address!</string>
     <string name="signup_error_title">Error!</string>
-    <!-- From: file:/C:/Projects/Selfie-Charades/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/values/values.xml -->
+    <!-- From: file:/C:/Projects/Selfie-Charades/branches/aws-integration/Selfie-Charades/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/values/values.xml -->
     <eat-comment/>
     <string name="status_bar_notification_info_overflow">999+</string>
-    <!-- From: file:/C:/Projects/Selfie-Charades/app/src/main/res/values/strings.xml -->
+    <!-- From: file:/C:/Projects/Selfie-Charades/branches/aws-integration/Selfie-Charades/app/src/main/res/values/strings.xml -->
     <eat-comment/>
     <string name="title_activity_acting_turn">ActingTurnActivity</string>
     <string name="title_activity_album_storage_dir_factory">AlbumStorageDirFactory</string>
@@ -320,18 +320,18 @@
     <string name="title_activity_sign_up">Sign Up</string>
     <string name="title_activity_temp">TempActivity</string>
     <string name="username_hint">Username</string>
-    <!-- From: file:/C:/Projects/Selfie-Charades/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/values/values.xml -->
+    <!-- From: file:/C:/Projects/Selfie-Charades/branches/aws-integration/Selfie-Charades/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/values/values.xml -->
     <eat-comment/>
     <style name="AlertDialog.AppCompat" parent="Base.AlertDialog.AppCompat"/>
     <style name="AlertDialog.AppCompat.Light" parent="Base.AlertDialog.AppCompat.Light"/>
     <style name="Animation.AppCompat.Dialog" parent="Base.Animation.AppCompat.Dialog"/>
     <style name="Animation.AppCompat.DropDownUp" parent="Base.Animation.AppCompat.DropDownUp"/>
-    <!-- From: file:/C:/Projects/Selfie-Charades/app/src/main/res/values/styles.xml -->
+    <!-- From: file:/C:/Projects/Selfie-Charades/branches/aws-integration/Selfie-Charades/app/src/main/res/values/styles.xml -->
     <eat-comment/>
     <style name="AppTheme" parent="android:Theme.Light">
         <!-- Customize your theme here. -->
     </style>
-    <!-- From: file:/C:/Projects/Selfie-Charades/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/values/values.xml -->
+    <!-- From: file:/C:/Projects/Selfie-Charades/branches/aws-integration/Selfie-Charades/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/values/values.xml -->
     <eat-comment/>
     <style name="Base.AlertDialog.AppCompat" parent="android:Widget">
         <item name="android:layout">@layout/abc_alert_dialog_material</item>
@@ -1573,7 +1573,7 @@
     <style name="Widget.AppCompat.TextView.SpinnerItem" parent="Base.Widget.AppCompat.TextView.SpinnerItem"/>
     <style name="Widget.AppCompat.Toolbar" parent="Base.Widget.AppCompat.Toolbar"/>
     <style name="Widget.AppCompat.Toolbar.Button.Navigation" parent="RtlOverlay.Widget.AppCompat.Toolbar.Button.Navigation"/>
-    <!-- From: file:/C:/Projects/Selfie-Charades/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/3.20.0/res/values/values.xml -->
+    <!-- From: file:/C:/Projects/Selfie-Charades/branches/aws-integration/Selfie-Charades/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/3.20.0/res/values/values.xml -->
     <eat-comment/>
     <style name="com_facebook_loginview_default_style" parent="@android:style/Widget.Button">
         <item name="android:layout_width">wrap_content</item>
